@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log-in</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-transform: capitalize;
+            
+        }
+        body{
+            background-color:black;
+
+        }
+        h1{
+            margin: 4rem 9%;
+            color: white;
+            font-family: Verdana;
+        }
+        @font-face {
+            font-family: Verdana;
+            src: url(images/fonts/TESLA.ttf);
+        }
+         .log{
+            background-color: white;
+            margin-left: 600px;
+            display: block;
+            border: 2px solid white;
+            border-radius: 5px;
+            width: 400px;
+            height: 500px; 
+            box-shadow: 5px 5px blue;
+        }
+        
+        .log h2{
+            text-align: center;
+            margin-top: 10px;
+            
+        }
+        .email1{
+            margin-left: 35px;
+            margin-top: 10px;
+        }
+        .email{
+            margin-left: 35px;
+            height: 30px;
+            width: 300px;
+            border: 2px solid black;
+            border-radius: 5px; 
+            box-shadow:2px 2px black; 
+        }
+        .log .btn{
+            margin: 2rem 3rem ;
+            border-radius: 2rem;
+            width: 300px;
+            height: 40px;
+            background:#333;
+            color:white;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .log .p{
+            margin-left: 8rem ;
+        }
+        .log .btn:hover{
+            background-color: black;
+        }
+        .log span{
+            margin:4rem;
+        }
+        .log .h{
+            text-decoration: none;
+            color: white;
+        }
+        .log .s{
+            color: red;
+        }
+        .log .s:hover{
+            color: green;
+        }
+        .log .s:active{
+            color:yellow;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>sunshine trader's</h1>
+    <div class="box-container">
+        <div>
+            <form action="" class="log">
+             <h2>login to sunshine trader's</h2>
+             <br>
+             <br>
+             <br>
+                <label for="email" class="email1">email address</label> <br>
+                <input type="text" placeholder="email@example.com" class="email"> 
+                <br>
+                <br>
+                <label for="password" class="email1">password</label> <br>
+                <input type="password" placeholder="enter your password" class="email"> 
+                <br>
+                <br>
+                <a href="#" class="p">forgot password</a>
+                <br>
+                <button class="btn"><a href="index.html" class="h">login</a></button>  
+                <br>
+                <span>new to user?</span><a href="sign-up.html" class="s">click here</a>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

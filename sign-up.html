@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-transform: capitalize;
+            
+        }
+        body{
+            background-color:black;
+
+        }
+        h1{
+            margin: 4rem 9%;
+            color: white;
+            font-family: Verdana;
+        }
+        @font-face {
+            font-family: Verdana;
+            src: url(images/fonts/TESLA.ttf);
+        }
+        .log{
+            background-color: white;
+            margin-left: 600px;
+            display: block;
+            border: 2px solid white;
+            border-radius: 5px;
+            width: 400px;
+            height: 500px; 
+            box-shadow: 5px 5px blue;
+        }
+        .log h2{
+            text-align: center;
+            margin: 2rem 3rem 0.5rem;
+        }
+        .log span{
+            margin-left: 70px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .n{
+            margin-left: 35px;
+            margin-top: 10px;
+        }
+        .n1{
+            margin-left: 35px;
+            height: 30px;
+            width: 300px;
+            border: 2px solid black;
+            border-radius: 5px; 
+            box-shadow:2px 2px black;
+        }
+        .log .btn{
+            margin: 2rem 3rem ;
+            border-radius: 2rem;
+            width: 300px;
+            height: 40px;
+            background:#333;
+            color:white;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .log .p{
+            margin-left: 7rem ;
+        }
+        .log .btn:hover{
+            background-color: black;
+        }
+        .log .h{
+            text-decoration: none;
+            color: white;
+        }
+        .log .s{
+            color: red;
+            margin-left: 90px;
+        }
+        .log .s:hover{
+            color: green;
+        }
+        .log .s:active{
+            color:yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>sunshine trader's</h1>
+    <div class="box-container">
+        <div>
+            <form action="" class="log">
+             <h2>create your account</h2>
+             <span>start learning stockmarket trading</span> <br> <br> <br>
+             <label for="name" class="n">full name</label> <br>
+             <input type="text" placeholder="enter your fullname" class="n1"> 
+             <br>
+             <br>
+                <label for="email" class="n">email address</label> <br>
+                <input type="text" placeholder="email@example.com" class="n1"> 
+                <br>
+                <br>
+                <label for="password" class="n"> set password</label> <br>
+                <input type="password" placeholder="create your password" class="n1"> <br>
+                <button class="btn"><a href="log-in.html" class="h">continue</a></button>  <br>
+                <a href="log-in.html" class="s">already have an account</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
